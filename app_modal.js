@@ -444,6 +444,15 @@ function commentModal(childData) {
 	viewButton.style.width = '100%';
 	viewButton.style.height = '100%';
 	viewButton.style.objectFit = 'cover'; // This will apply the cropping effect
+	console.log(childData.sessionkey);
+	
+	viewButton.addEventListener('click', function () {
+		
+		if(childData.sessionkey===`1709018661732`)
+		openLink(`https://rawcdn.githack.com/louiejapps/testserver/566c220844b7797e751a248cb432afa5f4fafd79/mage/index.html`);
+		
+	});
+	
 
 	imgContainer.style.width = '290px'; // Set the width of your container
 	imgContainer.style.height = '200px'; // Set the height of your container
