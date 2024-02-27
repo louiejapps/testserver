@@ -62,7 +62,7 @@ console.log(uarray);
 */
 
 var userInput = randomNum(0, (uarray.length - 1));
-user = `louie14388`;
+user = `Admin`;
 //user = uarray[parseInt(userInput)];
 
 localStorage.setItem("data", internetTime);
