@@ -228,8 +228,8 @@ function loadThoughts() {
 	console.log("dgsd")
 	let messageHashMap = {
 		Admin: { image: `${profileHashMap['Admin']}`, shoutout: '+New Thoughts' },
-		Fenimaure: { image: profileHashMap['Fenimaure'], shoutout: 'This is great' },
-		ZzenN: { image: profileHashMap['ZzenN'], shoutout: 'I love this song 😍😍' },
+		Fenimaure: { image: profileHashMap['Fenimaure'], shoutout: 'Awesome' },
+		ZzenN: { image: profileHashMap['ZzenN'], shoutout: 'I love this 😍😍' },
 		Pennyclied30: { image: profileHashMap['Pennyclied30'], shoutout: '😁😁' },
 		louie14388: { image: profileHashMap['louie14388'], shoutout: 'hello' },
 		Jolyows: { image: profileHashMap['Jolyows'], shoutout: 'Orange skies' },
