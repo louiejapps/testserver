@@ -228,10 +228,10 @@ function loadThoughts() {
 	console.log("dgsd")
 	let messageHashMap = {
 		Admin: { image: `${profileHashMap['Admin']}`, shoutout: '+New Thoughts' },
-		Fenimaure: { image: profileHashMap['Fenimaure'], shoutout: 'Awesome' },
-		ZzenN: { image: profileHashMap['ZzenN'], shoutout: 'I love this 😍😍' },
+		Fenimaure: { image: profileHashMap['Fenimaure'], shoutout: 'hooray!' },
+		ZzenN: { image: profileHashMap['ZzenN'], shoutout: 'Aweome 😍😍' },
 		Pennyclied30: { image: profileHashMap['Pennyclied30'], shoutout: '😁😁' },
-		louie14388: { image: profileHashMap['louie14388'], shoutout: 'hello' },
+		louie14388: { image: profileHashMap['louie14388'], shoutout: 'Hi' },
 		Jolyows: { image: profileHashMap['Jolyows'], shoutout: 'Orange skies' },
 		XtreamCH: { image: profileHashMap['XtreamCH'], shoutout: '🙄😯' },
 		ZzzChizCurlzzZ: { image: profileHashMap['ZzzChizCurlzzZ'], shoutout: 'you only have to be right once' },
@@ -249,7 +249,7 @@ function loadThoughts() {
 		rhomdz: { image: profileHashMap['rhomdz'], shoutout: '' },
 		zerojhe101: { image: profileHashMap['zerojhe101'], shoutout: 'earthworm' },
 		andreazxcv: { image: profileHashMap['andreazxcv'], shoutout: '' },
-		Frenzo125: { image: `${profileHashMap['Frenzo125']}`, shoutout: '達成' },
+		Frenzo125: { image: `${profileHashMap['Frenzo125']}`, shoutout: 'great' },
 		zekejaeger: { image: profileHashMap['zekejaeger'], shoutout: '' },
 		alkens: { image: profileHashMap['alkens'], shoutout: '' },
 		znerski: { image: profileHashMap['znerski'], shoutout: '' },
@@ -258,7 +258,7 @@ function loadThoughts() {
 		FindingXY: { image: profileHashMap['FindingXY'], shoutout: '' },
 
 		Coolbookkeeper7: { image: profileHashMap['Coolbookkeeper7'], shoutout: '12345😍' },
-		astrazelle: { image: profileHashMap['astrazelle'], shoutout: '' },
+		astrazelle: { image: profileHashMap['astrazelle'], shoutout: 'uuuu' },
 		leviHeichou: { image: profileHashMap['leviHeichou'], shoutout: '' },
 		ParkJaechan: { image: profileHashMap['ParkJaechan'], shoutout: '' }
 	};
