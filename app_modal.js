@@ -449,7 +449,7 @@ function commentModal(childData) {
 	viewButton.addEventListener('click', function () {
 		
 		if(childData.sessionkey==1709018661732){
-		openLink(`https://rawcdn.githack.com/louiejapps/testserver/566c220844b7797e751a248cb432afa5f4fafd79/mage/index.html`);
+		openLink(`https://rawcdn.githack.com/louiejapps/testserver/135e58d25649cb3cdb5dc0ff711f9c0dc9d5fb5e/mage/index.html`);
 		}
 	});
 	
