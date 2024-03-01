@@ -71,28 +71,42 @@ function showModal() {
     const contin = modal.querySelector("#continue");
 
     spoiler1.addEventListener('click', function () {
-        spoiler1.style.backgroundColor = `transparent`;
-        spoiler1.innerHTML = `98108693792893`;
-        spoiler1.style.fontSize = `20px`;
-        spoiler2.style.fontSize = `16px`;
-        spoiler3.style.fontSize = `16px`;
+        setTimeout(function () {
+            spoiler1.style.backgroundColor = `transparent`;
+            spoiler1.innerHTML = `98108693792893`;
+
+            spoiler1.style.fontSize = `20px`;
+            setTimeout(function () {
+                spoiler2.style.fontSize = `16px`;
+                spoiler3.style.fontSize = `16px`;
+            }, 300);
+        }, 500);
+
     });
 
     spoiler2.addEventListener('click', function () {
-        spoiler2.style.backgroundColor = `transparent`;
-        spoiler2.innerHTML = `41808988991863`;
-        spoiler1.style.fontSize = `16px`;
-        spoiler2.style.fontSize = `20px`;
-        spoiler3.style.fontSize = `16px`;
+        setTimeout(function () {
+            spoiler2.style.backgroundColor = `transparent`;
+            spoiler2.innerHTML = `41808988991863`;
+            spoiler2.style.fontSize = `20px`;
+            setTimeout(function () {
+                spoiler1.style.fontSize = `16px`;
+                spoiler3.style.fontSize = `16px`;
+            }, 300);
+        }, 500);
 
     });
 
     spoiler3.addEventListener('click', function () {
-        spoiler3.style.backgroundColor = `transparent`;
-        spoiler3.innerHTML = `12008799642781`;
-        spoiler1.style.fontSize = `16px`;
-        spoiler2.style.fontSize = `16px`;
-        spoiler3.style.fontSize = `20px`;
+        setTimeout(function () {
+            spoiler3.style.backgroundColor = `transparent`;
+            spoiler3.innerHTML = `12008799642781`;
+            spoiler3.style.fontSize = `20px`;
+            setTimeout(function () {
+                spoiler1.style.fontSize = `16px`;
+                spoiler2.style.fontSize = `16px`;
+            }, 300);
+        }, 500);
     });
 
     contin.addEventListener('click', function () {
