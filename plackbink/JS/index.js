@@ -18,7 +18,7 @@ export const createRoot = () => {
     <div class="container2">
     <div class="header">    
         <span class="theme-toggle" id="toggle"><i class="bi bi-sun"></i></span>
-        <span style="padding-left:70px"> PLΛƆK💖BIИK </span>
+        <span style="padding-left:60px"> PLΛƆK💖BIИK </span>
         <pre style="font-size:45%">FILE REPOSITORY
              파일 저장소
            DEV: LOUIE</pre>
